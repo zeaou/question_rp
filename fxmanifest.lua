@@ -1,4 +1,9 @@
+fx_version 'bodacious'
+
+game 'gta5'
+
 ui_page 'html/ui.html'
+
 files {
 	'html/ui.html',
 	'html/logo.png',
@@ -13,6 +18,7 @@ server_scripts {
         'config.lua',
         'server.lua'
 }
-client_script {
+
+client_scripts {
         'client.lua'
 }
